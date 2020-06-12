@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Github Portfolio</title>
+  </head>
+  <body>
+    <header class="center-header color-grey">
+      <img class="img-clean" src="./Images/Junth.jpg" width="15%" />
+      <h2 id="name"></h2>
+      <p id="bio"></p>
+      <h4 id="followers"></h4>
+      <h4 id="following"></h4>
+      <section class="media-color">
+        <h5 class="gap-follow">Follow me on</h5>
+        <hr />
+        <a class="gap" href="https://github.com/Junth" target="_blank"
+          ><ion-icon size="large" name="logo-github"></ion-icon
+        ></a>
+        <a class="gap" href="https://twitter.com/JunthBasnet" target="_blank"
+          ><ion-icon size="large" name="logo-twitter"></ion-icon
+        ></a>
+        <a
+          class="gap"
+          href="https://www.facebook.com/profile.php?id=100004744575605"
+          target="_blank"
+          ><ion-icon size="large" name="logo-facebook"></ion-icon
+        ></a>
+      </section>
+    </header>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col back">
+          <section id="repo-list">
+            <br />
+            <h3 class="center-header">Repositories</h3>
+            <hr />
+            <ol id="myList"></ol>
+          </section>
+        </div>
+        <div class="col">
+          <br />
+          <h3 class="center-header">Tweets</h3>
+          <hr />
+          <a
+            class="twitter-timeline"
+            href="https://twitter.com/JunthBasnet?ref_src=twsrc%5Etfw"
+            >Tweets by JunthBasnet</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>

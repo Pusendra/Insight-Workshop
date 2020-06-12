@@ -1,0 +1,36 @@
+.center-header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.big {
+    font-size: 120px;
+}
+
+.back {
+    background-color: rgb(255, 250, 243);
+}
+
+.color-grey {
+    background-color: rgb(252, 252, 252);
+}
+
+.media-color {
+    padding: 0px 30px;
+    border: 1px solid #00acee;
+    border-radius: 2%;
+    display: inline-block;
+    background-color: #def6ff67;
+}
+
+.gap-follow {
+    padding: 10px 10px 0px 10px;
+}
+
+.gap {
+    padding: 10px 5px;
+}
+
+.img-clean {
+    border-radius: 5%;
+}
